@@ -1,0 +1,9 @@
+{
+    "AWS": {
+      "accessKeyId":"AKIAWJ4UCBWS3T3ZCPNF",
+      "secretAccessKey":"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",
+      "region":"ap-northeast-1",
+      "SenderEmailId":"<naushadmohamme1998@gmail.com>"
+    },
+    "port": 3500
+  }
