@@ -1,6 +1,13 @@
-FROM node:9-slim
-WORKDIR /app
-COPY package.json ./app
+From node:alpine
+
+WORKDIR /usr/src/app
+
+COPY package*.json ./
+
 RUN npm install
-COPY . /app
-CMD ["node" ,"index.js"]
+
+COPY . .
+
+EXPOSE 3500
+
+CMD ["node", "index.js"]
